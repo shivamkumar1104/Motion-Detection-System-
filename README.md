@@ -42,6 +42,7 @@ Software Setup
 
 
 ## Here's Code:-
+
 #include <ESP8266WiFi.h>
 #include <ESP8266HTTPClient.h>
 
@@ -82,19 +83,12 @@ void loop() {
       }
       http.end();
     } else {
-      
       connectToWiFi();
     }
-
-    
     delay(5000); 
-  
   }
-
   delay(5000);
-   
   }
-
   delay(5000);
 }
 void connectToWiFi() {
